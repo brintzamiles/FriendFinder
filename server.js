@@ -17,10 +17,10 @@ app.use(bodyParser.json());
 // ROUTER
 // configure my routes
 // The below points our server to a series of "route" files.
-// These routes give our server a "map" of how to respond when users visit or request data from various URLs.
+// These routes give our server a "map" of how to respond when users visit or request ç from various URLs.
 // ================================================================================
-require(`./app/routes/htmlRoutes`)(app);
-require(`./app/routes/apiRoutes`)(app);
+require(`./app/routing/htmlRoutes`)(app);
+require(`./app/routing/apiRoutes`)(app);
 
 
 //"Start" our server
